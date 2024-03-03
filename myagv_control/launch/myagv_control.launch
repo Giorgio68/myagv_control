@@ -1,0 +1,4 @@
+<launch>
+  <node name="myagv_control" pkg="myagv_controlp" type="myagv_control.py" output="screen">
+  </node>
+</launch>
