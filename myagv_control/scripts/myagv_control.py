@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/env python
 # (c) Giorgio Salvemini 2024
 
 import rospy
