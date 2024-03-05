@@ -37,7 +37,7 @@ def main():
   global pub
   rospy.init_node('myagv_teleop')
   pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
-  rospy.Subscriber('ydlidar', String, callback)
+  rospy.Subscriber('/scan', String, callback)
 
   print(msg)
 
